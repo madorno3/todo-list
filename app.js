@@ -14,7 +14,7 @@ form.addEventListener('submit', function(evt){
         let testNow = [taskInput.value];
         localStorage.setItem('test', JSON.stringify(testNow))
         todoForm.reset();
-        // localStorage.setItem('results', JSON.stringify(results))
+        
 });
 
 function toDo(task){
@@ -32,11 +32,9 @@ function toDo(task){
 
     listItem.addEventListener("dblclick", function(task) {
         event.target.remove();
-      //   localStorage.setItem('todos', JSON.stringify(todos))
-      //   localStorage.getItem(todos)
+      
       });
     return listItem;
     
 }
 
-// JSON.parse(localStorage.getItem('todos'))
