@@ -1,0 +1,21 @@
+li{
+    font-size: 20px;
+    color: black;
+    display:block
+}
+
+li:hover{
+    
+    text-decoration: line-through rgb(255, 60, 0);
+    
+    
+}
+
+/* .completed {
+    color: orange;
+    text-decoration: line-through rgb(255, 60, 0);
+} */
+
+button {
+    display: block;
+}
